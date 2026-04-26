@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 172425287}
   - component: {fileID: 172425286}
   - component: {fileID: 172425288}
+  - component: {fileID: 172425289}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -296,7 +297,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 196570336292d8444880410516e6f89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundRadius: 1
+  soundRadius: 2.5
+--- !u!114 &172425289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172425281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9d40e31519988419e65137007c6034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pulseMaxRadius: 5
+  pulseDuration: 0.8
+  pulseKey: 101
 --- !u!1 &311620557
 GameObject:
   m_ObjectHideFlags: 0
